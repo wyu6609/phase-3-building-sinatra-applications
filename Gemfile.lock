@@ -24,6 +24,7 @@ GEM
     faker (2.18.0)
       i18n (>= 1.6, < 2)
     ffi (1.15.3)
+    ffi (1.15.3-x64-mingw32)
     i18n (1.8.10)
       concurrent-ruby (~> 1.0)
     listen (3.5.1)
@@ -78,6 +79,7 @@ GEM
 
 PLATFORMS
   universal-darwin-20
+  x64-mingw32
 
 DEPENDENCIES
   activerecord (~> 6.1)
@@ -94,4 +96,4 @@ DEPENDENCIES
   sqlite3 (~> 1.4)
 
 BUNDLED WITH
-   2.2.23
+   2.3.9
